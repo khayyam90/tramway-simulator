@@ -1,0 +1,41 @@
+body{
+	font-size: .8em;
+}
+
+.STATION:after{
+	content: 'STATION';
+}
+
+.node{
+	display: flex;
+	> div:first-child{
+		width: 10em;
+		text-align: right;
+		margin-right: 1em;
+	}
+}
+
+.TRACK:after{
+	content: '|';
+}
+
+#header{
+	display: flex;
+	width: 100%;
+
+	input[type='range']{
+		width: 100%;
+	}
+}
+
+.content{
+	display: flex;
+}
+#simulator{
+	width: 50%;
+}
+#output{
+	width: 400px;
+	height: 300px;
+	overflow-y: scroll;
+}
